@@ -11,7 +11,7 @@ const Accordion = () => {
         {
                 data.map((element) => {
                     return <MyAccordion key={element.id} {...element} />
-                    //here the spread operator is use to pass the the properties of the questions api
+                    
                 })        
         }
                  </section>
